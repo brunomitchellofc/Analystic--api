@@ -1,0 +1,23 @@
+# Ambientes Virtuais
+venv/
+.venv/
+env/
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Variáveis de Ambiente (Segurança!)
+.env
+
+# Notebooks (Opcional: ignore os checkpoints do Jupyter)
+.ipynb_checkpoints/
+
+# IDEs
+.vscode/
+.idea/
+
+# Docker (Ignorar dados se você usar volumes locais)
+.docker/
